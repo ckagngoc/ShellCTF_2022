@@ -33,7 +33,9 @@ nửa cuối **+ vitri / 6** lưu vào **src**, sau đó *str* ban đầu đư�
 
 ![Imgur](https://i.imgur.com/hu6AzZW.png)
 
-Còn đối với hàm **addSugar** chuiwng trình sẽ lấy ký tự có index lẻ lưu vào **v2**, ký tự có index chẵn lưu vào **dest** sau đó *str* ban đầu được gán bằng **v2 + dest**:
+Còn đối với hàm **addSugar** chuơng trình sẽ lấy ký tự có index lẻ lưu vào **v2**, ký tự có index chẵn lưu vào **dest** sau đó *str* ban đầu được gán bằng **v2 + dest**:
+
+
 ![Imgur](https://i.imgur.com/mCBGVCI.png)
 
 Tóm tắt lại:Chương trình sẽ nhận vào flag sau đó viết ký tự vị trí lẻ vào nửa đầu, chẵn vào nửa sau, sau đó lấy mã ascii của từng ký tự trong nửa đầu **+ 3 * (vitri / -2)**
