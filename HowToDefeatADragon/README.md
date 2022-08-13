@@ -11,17 +11,13 @@ Vứt vào ida Vào String view search *wron..aaaaaahhhhhhhh* dẫn đến đây
 
 ![Imgur](https://i.imgur.com/I9mHsOs.png)
 
-Chuyển sang chế độ xem pseudocode ta nhận được đoạn text sau với mật khẩu *69420*:
+Chuyển sang chế độ xem pseudocode ta nhận được password *69420*, nhập vào lấy được đoạn text:
 
 ![Imgur](https://i.imgur.com/E69SjMb.png)
 
 ```
 SHELLCTF{5348454c4c4354467b31355f523376337235316e675f333473793f7d}
 ```
-
-Test thử trên kali :
-
-![Imgur](https://i.imgur.com/fRPHyaj.png)
 
 Có vẻ vẫn chưa đúng, đoạn text bên trong *SHELLCTF{}* giống giống một đoạn hex, copy ra rồi vào kt.gy convert:
 
