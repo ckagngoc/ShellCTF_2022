@@ -14,7 +14,8 @@ Vẫn là dạng tìm mật khẩu phù hợp, ném vào IDA xe, sourceCode thì
 
 ![Imgur](https://i.imgur.com/j3jsGd5.png)
 
-Khi đã kiểm tra xong kết quả ta thấy chuiwng trình chạy qua 3 func **addSugar**, **addTea**, **addMilk** để sửa xâu nhập vào, sau đó gọi func **strainAndServe** để so sánh xâu nhận được với đoạn text dưới đây, nếu đúng sẽ in ra flag:
+Khi đã kiểm tra xong kết quả ta thấy chuơng trình chạy qua 3 func **addSugar**, **addTea**, **addMilk** để sửa xâu nhập vào, sau đó gọi func **strainAndServe** để so sánh 
+xâu nhận được với đoạn text dưới đây, nếu đúng sẽ in ra flag:
 
 ```
 R;crc75ihl`cNYe`]m%50gYhugow~34i
@@ -27,7 +28,8 @@ Ta xem xét hàm **addMilk** chương trình sẽ lấy đoạn từ đầu đ�
 
 ![Imgur](https://i.imgur.com/F56bgFZ.png)
 
-Đối với hàm **addTea** chương trình chia đôi str nhận vào, lấy từng ký tự của nửa đầu **+ 3 * (vitri / -2)** lưu vào **dest**, lấy từng ký tự của nửa cuối ** + vitri / 6** lưu vào **src**, sau đó *str* ban đầu được gán bằng **src + dest**:
+Đối với hàm **addTea** chương trình chia đôi str nhận vào, lấy từng ký tự của nửa đầu **+ 3 * (vitri / -2)** lưu vào **dest**, lấy từng ký tự của 
+nửa cuối **+ vitri / 6** lưu vào **src**, sau đó *str* ban đầu được gán bằng **src + dest**:
 
 ![Imgur](https://i.imgur.com/hu6AzZW.png)
 
