@@ -10,7 +10,7 @@
 
 ![Imgur](https://i.imgur.com/mSWh9cq.png)
 
-Vẫn là dạng tìm mật khẩu phù hợp, ném vào IDA xe, sourceCode thì thấy, đầu tiên chương trình kiểm tra coi đoạn text nhập vào có dài đủ 32 ký tự không, nếu sai sẽ in ra chuỗi *wrong length*:
+Vẫn là dạng tìm mật khẩu phù hợp, ném vào IDA xem, sourceCode thì thấy, đầu tiên chương trình kiểm tra coi đoạn text nhập vào có dài đủ 32 ký tự không, nếu sai sẽ in ra chuỗi *wrong length*:
 
 ![Imgur](https://i.imgur.com/j3jsGd5.png)
 
