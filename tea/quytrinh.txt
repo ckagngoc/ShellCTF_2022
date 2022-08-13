@@ -1,0 +1,15 @@
+vị trí lẻ cho vào vế đầu
+vị trí chẵn cho vào vế sau
+
+
+Nửa đầu mỗi ký tự + vị trí / 6 viết thành nửa sau
+nửa sau mỗi ký tự + 3*(vị trí/-2) viết thành nửa đầu
+
+
+121212121212121
+
+11111111
+2222222
+
+1111111122222222
+121212121212
